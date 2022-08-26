@@ -1,0 +1,1708 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<entry xmlns:align="http://www.ebi.ac.uk/pdbe/docs/sifts/alignment.xsd" xmlns:data="http://www.ebi.ac.uk/pdbe/docs/sifts/dataTypes.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.ebi.ac.uk/pdbe/docs/sifts/eFamily.xsd" dbSource="PDBe" dbVersion="2.0" dbCoordSys="PDBe" dbAccessionId="2mcm" dbEntryVersion="2017-11-29" date="2022-07-21" xsi:schemaLocation="http://www.ebi.ac.uk/pdbe/docs/sifts/eFamily.xsd http://www.ebi.ac.uk/pdbe/docs/sifts/eFamily.xsd">
+  <rdf:RDF>
+    <rdf:Description rdf:about="self">
+      <dc:rights rdf:resource="http://pdbe.org/sifts">
+        Copyright notice: (c) 2004-2020, EMBL-EBI, PDBe-UniProt
+        Jose M. Dana, Nidhi Tyagi, Preeti Choudhary, Aleksandras Gutmanas, Claire O'Donovan, Maria J. Martin, Sameer Velankar.
+        The information included is supplied as-is, under the terms and conditions of the licence agreement.
+        </dc:rights>
+    </rdf:Description>
+  </rdf:RDF>
+  <listDB>
+    <db dbSource="Pfam" dbCoordSys="UniProt" dbVersion="35.0"/>
+    <db dbSource="InterPro" dbCoordSys="PDBresnum" dbVersion="89.0"/>
+    <db dbSource="CATH" dbCoordSys="PDBresnum" dbVersion="4.2.0"/>
+    <db dbSource="EC" dbCoordSys="UniProt" dbVersion="28.22"/>
+    <db dbSource="SCOP2" dbCoordSys="PDBresnum" dbVersion="2022-06-29"/>
+    <db dbSource="UniProt" dbCoordSys="UniProt" dbVersion="2022.03"/>
+    <db dbSource="SCOP" dbCoordSys="PDBresnum" dbVersion="1.75"/>
+    <db dbSource="GO" dbCoordSys="UniProt" dbVersion="20130528"/>
+    <db dbSource="PDB" dbCoordSys="PDBresnum" dbVersion="28.22"/>
+  </listDB>
+  <entity type="protein" entityId="A">
+    <segment segId="2mcm_A_1_112" start="1" end="112">
+      <listResidue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="1" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="1" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="33" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="1" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="1" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="1" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="1" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="33" dbResName="A"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="1" dbResName="ALA" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="1" dbResName="ALA" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="2" dbResName="PRO">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="2" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="34" dbResName="P"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="2" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="2" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="2" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="2" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="34" dbResName="P"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="2" dbResName="PRO" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="2" dbResName="PRO" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="3" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="3" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="35" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="3" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="3" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="3" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="3" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="35" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="3" dbResName="GLY" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="3" dbResName="GLY" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="4" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="4" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="36" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="36" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="4" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="4" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="4" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="4" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="36" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="4" dbResName="VAL" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="4" dbResName="VAL" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="4" dbResName="VAL" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="5" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="5" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="37" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="37" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="5" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="5" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="5" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="5" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="37" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="5" dbResName="THR" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="5" dbResName="THR" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="5" dbResName="THR" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="6" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="6" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="38" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="38" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="6" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="6" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="6" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="6" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="38" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="6" dbResName="VAL" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="6" dbResName="VAL" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="6" dbResName="VAL" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="7" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="7" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="39" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="39" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="7" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="7" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="7" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="7" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="39" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="7" dbResName="THR" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="7" dbResName="THR" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="7" dbResName="THR" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="8" dbResName="PRO">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="8" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="40" dbResName="P"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="40" dbResName="P"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="8" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="8" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="8" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="8" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="40" dbResName="P"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="8" dbResName="PRO" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="8" dbResName="PRO" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="8" dbResName="PRO" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="9" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="9" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="41" dbResName="A"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="41" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="9" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="9" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="9" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="9" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="41" dbResName="A"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="9" dbResName="ALA" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="9" dbResName="ALA" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="9" dbResName="ALA" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="10" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="10" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="42" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="42" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="10" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="10" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="10" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="10" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="42" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="10" dbResName="THR" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="10" dbResName="THR" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="10" dbResName="THR" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="11" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="11" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="43" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="43" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="11" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="11" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="11" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="11" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="43" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="11" dbResName="GLY" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="11" dbResName="GLY" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="11" dbResName="GLY" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="12" dbResName="LEU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="12" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="44" dbResName="L"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="44" dbResName="L"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="12" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="12" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="12" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="12" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="44" dbResName="L"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="12" dbResName="LEU" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="12" dbResName="LEU" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="12" dbResName="LEU" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="13" dbResName="SER">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="13" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="45" dbResName="S"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="45" dbResName="S"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="13" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="13" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="13" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="13" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="45" dbResName="S"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="13" dbResName="SER" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="13" dbResName="SER" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="13" dbResName="SER" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="14" dbResName="ASN">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="14" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="46" dbResName="N"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="46" dbResName="N"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="14" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="14" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="14" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="14" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="46" dbResName="N"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="14" dbResName="ASN" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="14" dbResName="ASN" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="14" dbResName="ASN" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="15" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="15" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="47" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="47" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="15" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="15" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="15" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="15" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="47" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="15" dbResName="GLY" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="15" dbResName="GLY" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="15" dbResName="GLY" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="16" dbResName="GLN">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="16" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="48" dbResName="Q"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="48" dbResName="Q"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="16" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="16" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="16" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="16" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="48" dbResName="Q"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="16" dbResName="GLN" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="16" dbResName="GLN" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="16" dbResName="GLN" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="17" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="17" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="49" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="49" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="17" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="17" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="17" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="17" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="49" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="17" dbResName="THR" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="17" dbResName="THR" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="17" dbResName="THR" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="18" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="18" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="50" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="50" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="18" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="18" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="18" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="18" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="50" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="18" dbResName="VAL" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="18" dbResName="VAL" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="18" dbResName="VAL" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="19" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="19" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="51" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="51" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="19" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="19" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="19" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="19" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="51" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="19" dbResName="THR" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="19" dbResName="THR" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="19" dbResName="THR" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="20" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="20" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="52" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="52" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="20" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="20" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="20" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="20" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="52" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="20" dbResName="VAL" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="20" dbResName="VAL" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="20" dbResName="VAL" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="21" dbResName="SER">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="21" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="53" dbResName="S"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="53" dbResName="S"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="21" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="21" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="21" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="21" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="53" dbResName="S"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="21" dbResName="SER" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="21" dbResName="SER" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="22" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="22" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="54" dbResName="A"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="54" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="22" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="22" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="22" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="22" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="54" dbResName="A"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="22" dbResName="ALA" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="22" dbResName="ALA" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="23" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="23" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="55" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="55" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="23" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="23" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="23" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="23" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="55" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="23" dbResName="THR" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="23" dbResName="THR" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="24" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="24" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="56" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="56" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="24" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="24" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="24" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="24" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="56" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="24" dbResName="GLY" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="24" dbResName="GLY" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="24" dbResName="GLY" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="25" dbResName="LEU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="25" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="57" dbResName="L"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="57" dbResName="L"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="25" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="25" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="25" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="25" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="57" dbResName="L"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="25" dbResName="LEU" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="25" dbResName="LEU" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="25" dbResName="LEU" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="26" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="26" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="58" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="58" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="26" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="26" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="26" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="26" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="58" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="26" dbResName="THR" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="26" dbResName="THR" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="26" dbResName="THR" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="27" dbResName="PRO">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="27" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="59" dbResName="P"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="59" dbResName="P"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="27" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="27" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="27" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="27" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="59" dbResName="P"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="27" dbResName="PRO" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="27" dbResName="PRO" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="27" dbResName="PRO" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="28" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="28" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="60" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="60" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="28" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="28" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="28" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="28" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="60" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="28" dbResName="GLY" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="28" dbResName="GLY" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="28" dbResName="GLY" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="29" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="29" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="61" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="61" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="29" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="29" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="29" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="29" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="61" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="29" dbResName="THR" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="29" dbResName="THR" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="29" dbResName="THR" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="30" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="30" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="62" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="62" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="30" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="30" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="30" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="30" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="62" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="30" dbResName="VAL" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="30" dbResName="VAL" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="30" dbResName="VAL" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="31" dbResName="TYR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="31" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="63" dbResName="Y"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="63" dbResName="Y"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="31" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="31" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="31" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="31" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="63" dbResName="Y"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="31" dbResName="TYR" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="31" dbResName="TYR" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="31" dbResName="TYR" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="32" dbResName="HIS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="32" dbResName="HIS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="64" dbResName="H"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="64" dbResName="H"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="32" dbResName="HIS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="32" dbResName="HIS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="32" dbResName="HIS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="32" dbResName="HIS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="64" dbResName="H"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="32" dbResName="HIS" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="32" dbResName="HIS" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="32" dbResName="HIS" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="33" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="33" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="65" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="65" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="33" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="33" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="33" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="33" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="65" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="33" dbResName="VAL" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="33" dbResName="VAL" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="33" dbResName="VAL" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="34" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="34" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="66" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="66" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="34" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="34" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="34" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="34" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="66" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="34" dbResName="GLY" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="34" dbResName="GLY" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="34" dbResName="GLY" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="35" dbResName="GLN">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="35" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="67" dbResName="Q"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="67" dbResName="Q"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="35" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="35" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="35" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="35" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="67" dbResName="Q"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="35" dbResName="GLN" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="35" dbResName="GLN" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="35" dbResName="GLN" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="36" dbResName="CYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="36" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="68" dbResName="C"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="68" dbResName="C"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="36" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="36" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="36" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="36" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="68" dbResName="C"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="36" dbResName="CYS" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="36" dbResName="CYS" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="36" dbResName="CYS" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="37" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="37" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="69" dbResName="A"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="69" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="37" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="37" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="37" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="37" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="69" dbResName="A"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="37" dbResName="ALA" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="37" dbResName="ALA" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="37" dbResName="ALA" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="38" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="38" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="70" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="70" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="38" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="38" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="38" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="38" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="70" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="38" dbResName="VAL" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="38" dbResName="VAL" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="38" dbResName="VAL" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="39" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="39" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="71" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="71" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="39" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="39" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="39" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="39" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="71" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="39" dbResName="VAL" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="39" dbResName="VAL" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="39" dbResName="VAL" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="40" dbResName="GLU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="40" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="72" dbResName="E"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="72" dbResName="E"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="40" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="40" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="40" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="40" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="72" dbResName="E"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="40" dbResName="GLU" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="40" dbResName="GLU" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="41" dbResName="PRO">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="41" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="73" dbResName="P"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="73" dbResName="P"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="41" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="41" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="41" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="41" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="73" dbResName="P"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="41" dbResName="PRO" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="41" dbResName="PRO" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="42" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="42" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="74" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="74" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="42" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="42" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="42" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="42" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="74" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="42" dbResName="GLY" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="42" dbResName="GLY" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="43" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="43" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="75" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="75" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="43" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="43" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="43" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="43" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="75" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="43" dbResName="VAL" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="43" dbResName="VAL" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="44" dbResName="ILE">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="44" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="76" dbResName="I"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="76" dbResName="I"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="44" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="44" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="44" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="44" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="76" dbResName="I"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="44" dbResName="ILE" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="44" dbResName="ILE" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="45" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="45" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="77" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="77" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="45" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="45" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="45" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="45" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="77" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="45" dbResName="GLY" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="45" dbResName="GLY" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="46" dbResName="CYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="46" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="78" dbResName="C"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="78" dbResName="C"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="46" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="46" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="46" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="46" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="78" dbResName="C"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="46" dbResName="CYS" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="46" dbResName="CYS" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="47" dbResName="ASP">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="47" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="79" dbResName="D"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="79" dbResName="D"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="47" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="47" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="47" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="47" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="79" dbResName="D"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="47" dbResName="ASP" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="47" dbResName="ASP" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="48" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="48" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="80" dbResName="A"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="80" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="48" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="48" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="48" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="48" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="80" dbResName="A"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="48" dbResName="ALA" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="48" dbResName="ALA" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="49" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="49" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="81" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="81" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="49" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="49" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="49" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="49" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="81" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="49" dbResName="THR" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="49" dbResName="THR" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="50" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="50" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="82" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="82" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="50" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="50" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="50" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="50" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="82" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="50" dbResName="THR" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="50" dbResName="THR" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="51" dbResName="SER">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="51" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="83" dbResName="S"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="83" dbResName="S"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="51" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="51" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="51" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="51" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="83" dbResName="S"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="51" dbResName="SER" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="51" dbResName="SER" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="52" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="52" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="84" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="84" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="52" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="52" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="52" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="52" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="84" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="52" dbResName="THR" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="52" dbResName="THR" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="53" dbResName="ASP">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="53" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="85" dbResName="D"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="85" dbResName="D"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="53" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="53" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="53" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="53" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="85" dbResName="D"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="53" dbResName="ASP" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="53" dbResName="ASP" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="54" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="54" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="86" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="86" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="54" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="54" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="54" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="54" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="86" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="54" dbResName="VAL" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="54" dbResName="VAL" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="55" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="55" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="87" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="87" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="55" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="55" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="55" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="55" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="87" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="55" dbResName="THR" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="55" dbResName="THR" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="55" dbResName="THR" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="56" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="56" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="88" dbResName="A"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="88" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="56" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="56" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="56" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="56" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="88" dbResName="A"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="56" dbResName="ALA" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="56" dbResName="ALA" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="56" dbResName="ALA" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="57" dbResName="ASP">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="57" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="89" dbResName="D"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="89" dbResName="D"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="57" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="57" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="57" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="57" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="89" dbResName="D"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="57" dbResName="ASP" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="57" dbResName="ASP" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="57" dbResName="ASP" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="58" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="58" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="90" dbResName="A"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="90" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="58" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="58" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="58" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="58" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="90" dbResName="A"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="58" dbResName="ALA" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="58" dbResName="ALA" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="58" dbResName="ALA" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="59" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="59" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="91" dbResName="A"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="91" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="59" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="59" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="59" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="59" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="91" dbResName="A"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="59" dbResName="ALA" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="59" dbResName="ALA" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="59" dbResName="ALA" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="60" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="60" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="92" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="92" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="60" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="60" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="60" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="60" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="92" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="60" dbResName="GLY" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="60" dbResName="GLY" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="60" dbResName="GLY" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="61" dbResName="LYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="61" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="93" dbResName="K"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="93" dbResName="K"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="61" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="61" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="61" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="61" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="93" dbResName="K"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="61" dbResName="LYS" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="61" dbResName="LYS" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="61" dbResName="LYS" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="62" dbResName="ILE">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="62" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="94" dbResName="I"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="94" dbResName="I"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="62" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="62" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="62" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="62" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="94" dbResName="I"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="62" dbResName="ILE" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="62" dbResName="ILE" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="62" dbResName="ILE" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="63" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="63" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="95" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="95" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="63" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="63" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="63" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="63" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="95" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="63" dbResName="THR" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="63" dbResName="THR" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="63" dbResName="THR" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="64" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="64" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="96" dbResName="A"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="96" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="64" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="64" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="64" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="64" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="96" dbResName="A"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="64" dbResName="ALA" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="64" dbResName="ALA" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="64" dbResName="ALA" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="65" dbResName="GLN">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="65" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="97" dbResName="Q"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="97" dbResName="Q"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="65" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="65" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="65" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="65" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="97" dbResName="Q"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="65" dbResName="GLN" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="65" dbResName="GLN" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="65" dbResName="GLN" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="66" dbResName="LEU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="66" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="98" dbResName="L"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="98" dbResName="L"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="66" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="66" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="66" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="66" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="98" dbResName="L"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="66" dbResName="LEU" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="66" dbResName="LEU" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="66" dbResName="LEU" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="67" dbResName="LYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="67" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="99" dbResName="K"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="99" dbResName="K"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="67" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="67" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="67" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="67" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="99" dbResName="K"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="67" dbResName="LYS" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="67" dbResName="LYS" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="67" dbResName="LYS" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="68" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="68" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="100" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="100" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="68" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="68" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="68" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="68" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="100" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="68" dbResName="VAL" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="68" dbResName="VAL" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="68" dbResName="VAL" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="69" dbResName="HIS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="69" dbResName="HIS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="101" dbResName="H"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="101" dbResName="H"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="69" dbResName="HIS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="69" dbResName="HIS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="69" dbResName="HIS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="69" dbResName="HIS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="101" dbResName="H"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="69" dbResName="HIS" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="69" dbResName="HIS" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="69" dbResName="HIS" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="70" dbResName="SER">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="70" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="102" dbResName="S"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="102" dbResName="S"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="70" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="70" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="70" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="70" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="102" dbResName="S"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="70" dbResName="SER" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="70" dbResName="SER" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="70" dbResName="SER" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="71" dbResName="SER">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="71" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="103" dbResName="S"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="103" dbResName="S"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="71" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="71" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="71" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="71" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="103" dbResName="S"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="71" dbResName="SER" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="71" dbResName="SER" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="71" dbResName="SER" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="72" dbResName="PHE">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="72" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="104" dbResName="F"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="104" dbResName="F"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="72" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="72" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="72" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="72" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="104" dbResName="F"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="72" dbResName="PHE" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="72" dbResName="PHE" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="72" dbResName="PHE" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="73" dbResName="GLN">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="73" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="105" dbResName="Q"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="105" dbResName="Q"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="73" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="73" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="73" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="73" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="105" dbResName="Q"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="73" dbResName="GLN" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="73" dbResName="GLN" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="74" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="74" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="106" dbResName="A"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="106" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="74" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="74" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="74" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="74" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="106" dbResName="A"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="74" dbResName="ALA" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="74" dbResName="ALA" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="75" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="75" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="107" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="107" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="75" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="75" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="75" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="75" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="107" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="75" dbResName="VAL" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="75" dbResName="VAL" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="76" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="76" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="108" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="108" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="76" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="76" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="76" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="76" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="108" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="76" dbResName="VAL" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="76" dbResName="VAL" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="77" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="77" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="109" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="109" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="77" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="77" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="77" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="77" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="109" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="77" dbResName="GLY" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="77" dbResName="GLY" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="78" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="78" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="110" dbResName="A"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="110" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="78" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="78" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="78" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="78" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="110" dbResName="A"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="78" dbResName="ALA" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="78" dbResName="ALA" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="79" dbResName="ASP">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="79" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="111" dbResName="N"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="111" dbResName="N"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="79" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="79" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="79" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="79" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="111" dbResName="N"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="79" dbResName="ASP" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="79" dbResName="ASP" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+          <residueDetail dbSource="PDBe" property="Annotation">Conflict</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="80" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="80" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="112" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="112" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="80" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="80" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="80" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="80" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="112" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="80" dbResName="GLY" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="80" dbResName="GLY" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="80" dbResName="GLY" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="81" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="81" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="113" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="113" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="81" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="81" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="81" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="81" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="113" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="81" dbResName="THR" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="81" dbResName="THR" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="81" dbResName="THR" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="82" dbResName="PRO">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="82" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="114" dbResName="P"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="114" dbResName="P"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="82" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="82" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="82" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="82" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="114" dbResName="P"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="82" dbResName="PRO" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="82" dbResName="PRO" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="82" dbResName="PRO" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="83" dbResName="TRP">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="83" dbResName="TRP" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="115" dbResName="W"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="115" dbResName="W"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="83" dbResName="TRP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="83" dbResName="TRP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="83" dbResName="TRP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="83" dbResName="TRP" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="115" dbResName="W"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="83" dbResName="TRP" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="83" dbResName="TRP" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="83" dbResName="TRP" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="84" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="84" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="116" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="116" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="84" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="84" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="84" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="84" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="116" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="84" dbResName="GLY" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="84" dbResName="GLY" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="84" dbResName="GLY" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="85" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="85" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="117" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="117" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="85" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="85" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="85" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="85" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="117" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="85" dbResName="THR" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="85" dbResName="THR" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="85" dbResName="THR" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="86" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="86" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="118" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="118" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="86" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="86" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="86" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="86" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="118" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="86" dbResName="VAL" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="86" dbResName="VAL" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="86" dbResName="VAL" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="87" dbResName="ASN">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="87" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="119" dbResName="N"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="119" dbResName="N"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="87" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="87" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="87" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="87" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="119" dbResName="N"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="87" dbResName="ASN" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="87" dbResName="ASN" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="87" dbResName="ASN" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="88" dbResName="CYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="88" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="120" dbResName="C"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="120" dbResName="C"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="88" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="88" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="88" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="88" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="120" dbResName="C"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="88" dbResName="CYS" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="88" dbResName="CYS" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="88" dbResName="CYS" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="89" dbResName="LYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="89" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="121" dbResName="K"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="121" dbResName="K"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="89" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="89" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="89" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="89" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="121" dbResName="K"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="89" dbResName="LYS" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="89" dbResName="LYS" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="89" dbResName="LYS" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="90" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="90" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="122" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="122" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="90" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="90" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="90" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="90" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="122" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="90" dbResName="VAL" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="90" dbResName="VAL" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="90" dbResName="VAL" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="91" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="91" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="123" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="123" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="91" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="91" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="91" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="91" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="123" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="91" dbResName="VAL" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="91" dbResName="VAL" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="91" dbResName="VAL" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="92" dbResName="SER">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="92" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="124" dbResName="S"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="124" dbResName="S"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="92" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="92" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="92" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="92" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="124" dbResName="S"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="92" dbResName="SER" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="92" dbResName="SER" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="92" dbResName="SER" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="93" dbResName="CYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="93" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="125" dbResName="C"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="125" dbResName="C"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="93" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="93" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="93" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="93" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="125" dbResName="C"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="93" dbResName="CYS" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="93" dbResName="CYS" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="93" dbResName="CYS" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="94" dbResName="SER">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="94" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="126" dbResName="S"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="126" dbResName="S"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="94" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="94" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="94" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="94" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="126" dbResName="S"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="94" dbResName="SER" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="94" dbResName="SER" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="94" dbResName="SER" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="95" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="95" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="127" dbResName="A"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="127" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="95" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="95" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="95" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="95" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="127" dbResName="A"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="95" dbResName="ALA" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="95" dbResName="ALA" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="95" dbResName="ALA" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="96" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="96" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="128" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="128" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="96" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="96" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="96" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="96" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="128" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="96" dbResName="GLY" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="96" dbResName="GLY" dbChainId="A" dbEvidence="PR01885"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="96" dbResName="GLY" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="97" dbResName="LEU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="97" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="129" dbResName="L"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="129" dbResName="L"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="97" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="97" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="97" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="97" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="129" dbResName="L"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="97" dbResName="LEU" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="97" dbResName="LEU" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="98" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="98" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="130" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="130" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="98" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="98" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="98" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="98" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="130" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="98" dbResName="GLY" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="98" dbResName="GLY" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="99" dbResName="SER">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="99" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="131" dbResName="S"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="131" dbResName="S"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="99" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="99" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="99" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="99" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="131" dbResName="S"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="99" dbResName="SER" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="99" dbResName="SER" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="100" dbResName="ASP">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="100" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="132" dbResName="D"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="132" dbResName="D"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="100" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="100" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="100" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="100" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="132" dbResName="D"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="100" dbResName="ASP" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="100" dbResName="ASP" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="101" dbResName="SER">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="101" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="133" dbResName="S"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="133" dbResName="S"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="101" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="101" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="101" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="101" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="133" dbResName="S"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="101" dbResName="SER" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="101" dbResName="SER" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="102" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="102" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="134" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="134" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="102" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="102" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="102" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="102" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="134" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="102" dbResName="GLY" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="102" dbResName="GLY" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="103" dbResName="GLU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="103" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="135" dbResName="E"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="135" dbResName="E"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="103" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="103" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="103" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="103" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="135" dbResName="E"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="103" dbResName="GLU" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="103" dbResName="GLU" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="104" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="104" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="136" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="136" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="104" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="104" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="104" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="104" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="136" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="104" dbResName="GLY" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="104" dbResName="GLY" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="105" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="105" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="137" dbResName="A"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="137" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="105" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="105" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="105" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="105" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="137" dbResName="A"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="105" dbResName="ALA" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="105" dbResName="ALA" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="106" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="106" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="138" dbResName="A"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="138" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="106" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="106" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="106" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="106" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="138" dbResName="A"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="106" dbResName="ALA" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="106" dbResName="ALA" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="107" dbResName="GLN">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="107" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="139" dbResName="Q"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="139" dbResName="Q"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="107" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="107" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="107" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="107" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="139" dbResName="Q"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="107" dbResName="GLN" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="107" dbResName="GLN" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="108" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="108" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="140" dbResName="A"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="140" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="108" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="108" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="108" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="108" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="140" dbResName="A"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="108" dbResName="ALA" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="108" dbResName="ALA" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="109" dbResName="ILE">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="109" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="141" dbResName="I"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="141" dbResName="I"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="109" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="109" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="109" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="109" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="141" dbResName="I"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="109" dbResName="ILE" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="109" dbResName="ILE" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="110" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="110" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="142" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="142" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="110" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="110" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="110" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="110" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="142" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="110" dbResName="THR" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="110" dbResName="THR" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="111" dbResName="PHE">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="111" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="143" dbResName="F"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" dbResNum="143" dbResName="F"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="111" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="111" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="111" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="111" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="143" dbResName="F"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186" dbResNum="111" dbResName="PHE" dbChainId="A" dbEvidence="PF00960"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273" dbResNum="111" dbResName="PHE" dbChainId="A" dbEvidence="SSF49319"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="112" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbResNum="112" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" dbResNum="144" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230" dbResNum="112" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207" dbResNum="112" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240" dbResNum="112" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241" dbResNum="112" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="1917" dbResNum="144" dbResName="A"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+      </listResidue>
+      <listMapRegion>
+        <mapRegion start="1" end="112">
+          <db dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="2mcm" dbChainId="A" start="1" end="112"/>
+        </mapRegion>
+        <mapRegion start="1" end="112">
+          <db dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P01549" start="33" end="144"/>
+          <dbDetail dbSource="UniProt" property="secondaryId">MACM_STRMA</dbDetail>
+        </mapRegion>
+        <mapRegion start="1" end="112">
+          <db dbSource="GO" dbCoordSys="UniProt" dbAccessionId="GO:0003677" dbEvidence="IEA"/>
+        </mapRegion>
+        <mapRegion start="1" end="112">
+          <db dbSource="GO" dbCoordSys="UniProt" dbAccessionId="GO:0042742" dbEvidence="IEA"/>
+        </mapRegion>
+        <mapRegion start="4" end="111">
+          <db dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186"/>
+        </mapRegion>
+        <mapRegion start="80" end="96">
+          <db dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186"/>
+        </mapRegion>
+        <mapRegion start="55" end="72">
+          <db dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186"/>
+        </mapRegion>
+        <mapRegion start="24" end="39">
+          <db dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186"/>
+        </mapRegion>
+        <mapRegion start="1" end="20">
+          <db dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR002186"/>
+        </mapRegion>
+        <mapRegion start="1" end="111">
+          <db dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR027273"/>
+        </mapRegion>
+        <mapRegion start="1" end="112">
+          <db dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="2.60.40.230"/>
+        </mapRegion>
+        <mapRegion start="1" end="112">
+          <db dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="22207"/>
+        </mapRegion>
+        <mapRegion start="1" end="112">
+          <db dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8055240"/>
+        </mapRegion>
+        <mapRegion start="1" end="112">
+          <db dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8055241"/>
+        </mapRegion>
+        <mapRegion start="4" end="111">
+          <db dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00960" coverage="1"/>
+        </mapRegion>
+      </listMapRegion>
+    </segment>
+  </entity>
+</entry>

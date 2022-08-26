@@ -1,0 +1,1213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<entry xmlns:align="http://www.ebi.ac.uk/pdbe/docs/sifts/alignment.xsd" xmlns:data="http://www.ebi.ac.uk/pdbe/docs/sifts/dataTypes.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.ebi.ac.uk/pdbe/docs/sifts/eFamily.xsd" dbSource="PDBe" dbVersion="2.0" dbCoordSys="PDBe" dbAccessionId="1cc8" dbEntryVersion="2017-10-04" date="2022-07-21" xsi:schemaLocation="http://www.ebi.ac.uk/pdbe/docs/sifts/eFamily.xsd http://www.ebi.ac.uk/pdbe/docs/sifts/eFamily.xsd">
+  <rdf:RDF>
+    <rdf:Description rdf:about="self">
+      <dc:rights rdf:resource="http://pdbe.org/sifts">
+        Copyright notice: (c) 2004-2020, EMBL-EBI, PDBe-UniProt
+        Jose M. Dana, Nidhi Tyagi, Preeti Choudhary, Aleksandras Gutmanas, Claire O'Donovan, Maria J. Martin, Sameer Velankar.
+        The information included is supplied as-is, under the terms and conditions of the licence agreement.
+        </dc:rights>
+    </rdf:Description>
+  </rdf:RDF>
+  <listDB>
+    <db dbSource="Pfam" dbCoordSys="UniProt" dbVersion="35.0"/>
+    <db dbSource="InterPro" dbCoordSys="PDBresnum" dbVersion="89.0"/>
+    <db dbSource="CATH" dbCoordSys="PDBresnum" dbVersion="4.2.0"/>
+    <db dbSource="EC" dbCoordSys="UniProt" dbVersion="28.22"/>
+    <db dbSource="SCOP2" dbCoordSys="PDBresnum" dbVersion="2022-06-29"/>
+    <db dbSource="UniProt" dbCoordSys="UniProt" dbVersion="2022.03"/>
+    <db dbSource="SCOP" dbCoordSys="PDBresnum" dbVersion="1.75"/>
+    <db dbSource="GO" dbCoordSys="UniProt" dbVersion="20130528"/>
+    <db dbSource="PDB" dbCoordSys="PDBresnum" dbVersion="28.22"/>
+  </listDB>
+  <entity type="protein" entityId="A">
+    <segment segId="1cc8_A_1_73" start="1" end="73">
+      <listResidue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="1" dbResName="MET">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="null" dbResName="MET" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="1" dbResName="M"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="null" dbResName="MET" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="1" dbResName="M"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="1" dbResName="M" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="Annotation">Not_Observed</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="2" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="2" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="2" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="2" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="2" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="2" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="2" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="2" dbResName="A"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="2" dbResName="A" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="3" dbResName="GLU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="3" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="3" dbResName="E"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="3" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="3" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="3" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="3" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="3" dbResName="E"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="3" dbResName="E" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="4" dbResName="ILE">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="4" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="4" dbResName="I"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="4" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="4" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="4" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="4" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="4" dbResName="I"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="4" dbResName="I" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="5" dbResName="LYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="5" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="5" dbResName="K"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="5" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="5" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="5" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="5" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="5" dbResName="K"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="5" dbResName="K" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="6" dbResName="HIS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="6" dbResName="HIS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="6" dbResName="H"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="6" dbResName="HIS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="6" dbResName="HIS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="6" dbResName="HIS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="6" dbResName="HIS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="6" dbResName="H"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="6" dbResName="H" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="7" dbResName="TYR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="7" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="7" dbResName="Y"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="7" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="7" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="7" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="7" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="7" dbResName="Y"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="7" dbResName="Y" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="8" dbResName="GLN">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="8" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="8" dbResName="Q"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="8" dbResName="Q"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="8" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="8" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="8" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="8" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="8" dbResName="Q"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="8" dbResName="GLN" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="8" dbResName="Q" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="9" dbResName="PHE">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="9" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="9" dbResName="F"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="9" dbResName="F"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="9" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="9" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="9" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="9" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="9" dbResName="F"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="9" dbResName="PHE" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="9" dbResName="PHE" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="9" dbResName="F" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="10" dbResName="ASN">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="10" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="10" dbResName="N"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="10" dbResName="N"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="10" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="10" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="10" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="10" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="10" dbResName="N"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="10" dbResName="ASN" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="10" dbResName="ASN" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="10" dbResName="N" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="11" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="11" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="11" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="11" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="11" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="11" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="11" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="11" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="11" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="11" dbResName="VAL" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="11" dbResName="VAL" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="11" dbResName="V" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="12" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="12" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="12" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="12" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="12" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="12" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="12" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="12" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="12" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="12" dbResName="VAL" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="12" dbResName="VAL" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="12" dbResName="V" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="13" dbResName="MET">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="13" dbResName="MET" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="13" dbResName="M"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="13" dbResName="M"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="13" dbResName="MET" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="13" dbResName="MET" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="13" dbResName="MET" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="13" dbResName="MET" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="13" dbResName="M"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="13" dbResName="MET" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="13" dbResName="MET" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="13" dbResName="MET" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="13" dbResName="M" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="14" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="14" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="14" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="14" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="14" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="14" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="14" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="14" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="14" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="14" dbResName="THR" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="14" dbResName="THR" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="14" dbResName="THR" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="14" dbResName="T" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="15" dbResName="CYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="15" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="15" dbResName="C"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="15" dbResName="C"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="15" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="15" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="15" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="15" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="15" dbResName="C"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="15" dbResName="CYS" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="15" dbResName="CYS" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="15" dbResName="CYS" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="15" dbResName="C" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="16" dbResName="SER">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="16" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="16" dbResName="S"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="16" dbResName="S"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="16" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="16" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="16" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="16" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="16" dbResName="S"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="16" dbResName="SER" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="16" dbResName="SER" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="16" dbResName="SER" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="16" dbResName="S" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="17" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="17" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="17" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="17" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="17" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="17" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="17" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="17" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="17" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="17" dbResName="GLY" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="17" dbResName="GLY" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="17" dbResName="GLY" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="17" dbResName="G" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="18" dbResName="CYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="18" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="18" dbResName="C"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="18" dbResName="C"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="18" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="18" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="18" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="18" dbResName="CYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="18" dbResName="C"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="18" dbResName="CYS" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="18" dbResName="CYS" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="18" dbResName="CYS" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="18" dbResName="C" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="19" dbResName="SER">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="19" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="19" dbResName="S"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="19" dbResName="S"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="19" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="19" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="19" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="19" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="19" dbResName="S"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="19" dbResName="SER" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="19" dbResName="SER" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="19" dbResName="SER" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="19" dbResName="S" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="20" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="20" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="20" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="20" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="20" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="20" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="20" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="20" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="20" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="20" dbResName="GLY" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="20" dbResName="GLY" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="20" dbResName="GLY" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="20" dbResName="G" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="21" dbResName="ALA">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="21" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="21" dbResName="A"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="21" dbResName="A"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="21" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="21" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="21" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="21" dbResName="ALA" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="21" dbResName="A"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="21" dbResName="ALA" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="21" dbResName="ALA" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="21" dbResName="ALA" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="21" dbResName="A" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="22" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="22" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="22" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="22" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="22" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="22" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="22" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="22" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="22" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="22" dbResName="VAL" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="22" dbResName="VAL" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="22" dbResName="VAL" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="22" dbResName="V" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="23" dbResName="ASN">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="23" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="23" dbResName="N"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="23" dbResName="N"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="23" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="23" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="23" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="23" dbResName="ASN" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="23" dbResName="N"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="23" dbResName="ASN" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="23" dbResName="ASN" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="23" dbResName="ASN" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="23" dbResName="N" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="24" dbResName="LYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="24" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="24" dbResName="K"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="24" dbResName="K"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="24" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="24" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="24" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="24" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="24" dbResName="K"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="24" dbResName="LYS" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="24" dbResName="LYS" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="24" dbResName="LYS" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="24" dbResName="K" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="25" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="25" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="25" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="25" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="25" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="25" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="25" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="25" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="25" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="25" dbResName="VAL" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="25" dbResName="VAL" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="25" dbResName="VAL" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="25" dbResName="V" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="26" dbResName="LEU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="26" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="26" dbResName="L"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="26" dbResName="L"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="26" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="26" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="26" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="26" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="26" dbResName="L"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="26" dbResName="LEU" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="26" dbResName="LEU" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="26" dbResName="LEU" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="26" dbResName="L" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="27" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="27" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="27" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="27" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="27" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="27" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="27" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="27" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="27" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="27" dbResName="THR" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="27" dbResName="THR" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="27" dbResName="THR" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="27" dbResName="T" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="28" dbResName="LYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="28" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="28" dbResName="K"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="28" dbResName="K"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="28" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="28" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="28" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="28" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="28" dbResName="K"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="28" dbResName="LYS" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="28" dbResName="LYS" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="28" dbResName="LYS" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="28" dbResName="K" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="29" dbResName="LEU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="29" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="29" dbResName="L"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="29" dbResName="L"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="29" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="29" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="29" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="29" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="29" dbResName="L"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="29" dbResName="LEU" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="29" dbResName="LEU" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="29" dbResName="LEU" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="29" dbResName="L" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="30" dbResName="GLU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="30" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="30" dbResName="E"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="30" dbResName="E"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="30" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="30" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="30" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="30" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="30" dbResName="E"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="30" dbResName="GLU" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="30" dbResName="GLU" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="30" dbResName="GLU" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="30" dbResName="E" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="31" dbResName="PRO">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="31" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="31" dbResName="P"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="31" dbResName="P"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="31" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="31" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="31" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="31" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="31" dbResName="P"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="31" dbResName="PRO" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="31" dbResName="PRO" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="31" dbResName="PRO" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="31" dbResName="P" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="32" dbResName="ASP">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="32" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="32" dbResName="D"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="32" dbResName="D"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="32" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="32" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="32" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="32" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="32" dbResName="D"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="32" dbResName="ASP" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="32" dbResName="ASP" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="32" dbResName="ASP" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="32" dbResName="D" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="33" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="33" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="33" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="33" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="33" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="33" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="33" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="33" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="33" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="33" dbResName="VAL" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="33" dbResName="VAL" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="33" dbResName="VAL" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="33" dbResName="V" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="34" dbResName="SER">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="34" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="34" dbResName="S"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="34" dbResName="S"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="34" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="34" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="34" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="34" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="34" dbResName="S"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="34" dbResName="SER" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="34" dbResName="SER" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="34" dbResName="SER" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="34" dbResName="S" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="35" dbResName="LYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="35" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="35" dbResName="K"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="35" dbResName="K"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="35" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="35" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="35" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="35" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="35" dbResName="K"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="35" dbResName="LYS" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="35" dbResName="LYS" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="35" dbResName="LYS" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="35" dbResName="K" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="36" dbResName="ILE">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="36" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="36" dbResName="I"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="36" dbResName="I"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="36" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="36" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="36" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="36" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="36" dbResName="I"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="36" dbResName="ILE" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="36" dbResName="ILE" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="36" dbResName="ILE" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="36" dbResName="I" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="37" dbResName="ASP">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="37" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="37" dbResName="D"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="37" dbResName="D"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="37" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="37" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="37" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="37" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="37" dbResName="D"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="37" dbResName="ASP" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="37" dbResName="ASP" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="37" dbResName="ASP" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="37" dbResName="D" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="38" dbResName="ILE">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="38" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="38" dbResName="I"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="38" dbResName="I"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="38" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="38" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="38" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="38" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="38" dbResName="I"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="38" dbResName="ILE" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="38" dbResName="ILE" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="38" dbResName="ILE" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="38" dbResName="I" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="39" dbResName="SER">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="39" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="39" dbResName="S"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="39" dbResName="S"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="39" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="39" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="39" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="39" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="39" dbResName="S"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="39" dbResName="SER" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="39" dbResName="SER" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="39" dbResName="SER" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="39" dbResName="S" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="40" dbResName="LEU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="40" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="40" dbResName="L"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="40" dbResName="L"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="40" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="40" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="40" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="40" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="40" dbResName="L"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="40" dbResName="LEU" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="40" dbResName="LEU" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="40" dbResName="LEU" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="40" dbResName="L" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="41" dbResName="GLU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="41" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="41" dbResName="E"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="41" dbResName="E"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="41" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="41" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="41" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="41" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="41" dbResName="E"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="41" dbResName="GLU" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="41" dbResName="GLU" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="41" dbResName="GLU" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="41" dbResName="E" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="42" dbResName="LYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="42" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="42" dbResName="K"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="42" dbResName="K"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="42" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="42" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="42" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="42" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="42" dbResName="K"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="42" dbResName="LYS" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="42" dbResName="LYS" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="42" dbResName="LYS" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="42" dbResName="K" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="43" dbResName="GLN">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="43" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="43" dbResName="Q"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="43" dbResName="Q"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="43" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="43" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="43" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="43" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="43" dbResName="Q"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="43" dbResName="GLN" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="43" dbResName="GLN" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="43" dbResName="GLN" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="43" dbResName="Q" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="44" dbResName="LEU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="44" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="44" dbResName="L"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="44" dbResName="L"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="44" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="44" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="44" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="44" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="44" dbResName="L"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="44" dbResName="LEU" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="44" dbResName="LEU" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="44" dbResName="LEU" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="44" dbResName="L" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="45" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="45" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="45" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="45" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="45" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="45" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="45" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="45" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="45" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="45" dbResName="VAL" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="45" dbResName="VAL" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="45" dbResName="VAL" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="45" dbResName="V" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="46" dbResName="ASP">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="46" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="46" dbResName="D"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="46" dbResName="D"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="46" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="46" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="46" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="46" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="46" dbResName="D"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="46" dbResName="ASP" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="46" dbResName="ASP" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="46" dbResName="ASP" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="46" dbResName="D" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="47" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="47" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="47" dbResName="V"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="47" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="47" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="47" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="47" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="47" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="47" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="47" dbResName="VAL" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="47" dbResName="VAL" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="47" dbResName="VAL" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="47" dbResName="V" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="48" dbResName="TYR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="48" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="48" dbResName="Y"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="48" dbResName="Y"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="48" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="48" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="48" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="48" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="48" dbResName="Y"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="48" dbResName="TYR" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="48" dbResName="TYR" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="48" dbResName="TYR" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="48" dbResName="Y" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="49" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="49" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="49" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="49" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="49" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="49" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="49" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="49" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="49" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="49" dbResName="THR" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="49" dbResName="THR" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="49" dbResName="THR" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="49" dbResName="T" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="50" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="50" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="50" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="50" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="50" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="50" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="50" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="50" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="50" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="50" dbResName="THR" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="50" dbResName="THR" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="50" dbResName="THR" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="50" dbResName="T" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="51" dbResName="LEU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="51" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="51" dbResName="L"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="51" dbResName="L"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="51" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="51" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="51" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="51" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="51" dbResName="L"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="51" dbResName="LEU" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="51" dbResName="LEU" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="51" dbResName="LEU" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="51" dbResName="L" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="52" dbResName="PRO">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="52" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="52" dbResName="P"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="52" dbResName="P"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="52" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="52" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="52" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="52" dbResName="PRO" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="52" dbResName="P"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="52" dbResName="PRO" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="52" dbResName="PRO" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="52" dbResName="PRO" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="52" dbResName="P" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="53" dbResName="TYR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="53" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="53" dbResName="Y"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="53" dbResName="Y"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="53" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="53" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="53" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="53" dbResName="TYR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="53" dbResName="Y"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="53" dbResName="TYR" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="53" dbResName="TYR" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="53" dbResName="TYR" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="53" dbResName="Y" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="54" dbResName="ASP">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="54" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="54" dbResName="D"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="54" dbResName="D"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="54" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="54" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="54" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="54" dbResName="ASP" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="54" dbResName="D"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="54" dbResName="ASP" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="54" dbResName="ASP" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="54" dbResName="ASP" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="54" dbResName="D" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="55" dbResName="PHE">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="55" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="55" dbResName="F"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="55" dbResName="F"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="55" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="55" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="55" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="55" dbResName="PHE" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="55" dbResName="F"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="55" dbResName="PHE" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="55" dbResName="PHE" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="55" dbResName="PHE" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="55" dbResName="F" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="56" dbResName="ILE">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="56" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="56" dbResName="I"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="56" dbResName="I"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="56" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="56" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="56" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="56" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="56" dbResName="I"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="56" dbResName="ILE" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="56" dbResName="ILE" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="56" dbResName="ILE" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="56" dbResName="I" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="57" dbResName="LEU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="57" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="57" dbResName="L"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="57" dbResName="L"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="57" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="57" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="57" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="57" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="57" dbResName="L"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="57" dbResName="LEU" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="57" dbResName="LEU" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="57" dbResName="LEU" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="57" dbResName="L" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="58" dbResName="GLU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="58" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="58" dbResName="E"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="58" dbResName="E"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="58" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="58" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="58" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="58" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="58" dbResName="E"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="58" dbResName="GLU" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="58" dbResName="GLU" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="58" dbResName="GLU" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="58" dbResName="E" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="59" dbResName="LYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="59" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="59" dbResName="K"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="59" dbResName="K"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="59" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="59" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="59" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="59" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="59" dbResName="K"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="59" dbResName="LYS" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="59" dbResName="LYS" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="59" dbResName="LYS" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="59" dbResName="K" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="60" dbResName="ILE">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="60" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="60" dbResName="I"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="60" dbResName="I"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="60" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="60" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="60" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="60" dbResName="ILE" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="60" dbResName="I"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="60" dbResName="ILE" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="60" dbResName="ILE" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="60" dbResName="ILE" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="60" dbResName="I" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="61" dbResName="LYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="61" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="61" dbResName="K"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="61" dbResName="K"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="61" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="61" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="61" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="61" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="61" dbResName="K"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="61" dbResName="LYS" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="61" dbResName="LYS" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="61" dbResName="LYS" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="61" dbResName="K" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="62" dbResName="LYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="62" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="62" dbResName="K"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="62" dbResName="K"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="62" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="62" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="62" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="62" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="62" dbResName="K"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="62" dbResName="LYS" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="62" dbResName="LYS" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="62" dbResName="LYS" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="62" dbResName="K" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">H</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">helix</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="63" dbResName="THR">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="63" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="63" dbResName="T"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="63" dbResName="T"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="63" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="63" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="63" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="63" dbResName="THR" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="63" dbResName="T"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="63" dbResName="THR" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="63" dbResName="THR" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="63" dbResName="THR" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="63" dbResName="T" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="64" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="64" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="64" dbResName="G"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="64" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="64" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="64" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="64" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="64" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="64" dbResName="G"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="64" dbResName="GLY" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="64" dbResName="GLY" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="64" dbResName="GLY" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="64" dbResName="G" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="65" dbResName="LYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="65" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="65" dbResName="K"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="65" dbResName="K"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="65" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="65" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="65" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="65" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="65" dbResName="K"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="65" dbResName="LYS" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="65" dbResName="LYS" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="65" dbResName="LYS" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="65" dbResName="K" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="66" dbResName="GLU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="66" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="66" dbResName="E"/>
+          <crossRefDb dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" dbResNum="66" dbResName="E"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="66" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="66" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="66" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="66" dbResName="GLU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="66" dbResName="E"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="66" dbResName="GLU" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="66" dbResName="GLU" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="66" dbResName="GLU" dbChainId="A" dbEvidence="PF00403"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="66" dbResName="E" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">T</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">loop</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="67" dbResName="VAL">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="67" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="67" dbResName="V"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="67" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="67" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="67" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="67" dbResName="VAL" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="67" dbResName="V"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="67" dbResName="VAL" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="67" dbResName="VAL" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="67" dbResName="V" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="68" dbResName="ARG">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="68" dbResName="ARG" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="68" dbResName="R"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="68" dbResName="ARG" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="68" dbResName="ARG" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="68" dbResName="ARG" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="68" dbResName="ARG" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="68" dbResName="R"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121" dbResNum="68" dbResName="ARG" dbChainId="A" dbEvidence="cd00371"/>
+          <crossRefDb dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163" dbResNum="68" dbResName="ARG" dbChainId="A" dbEvidence="SSF55008"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="68" dbResName="R" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="69" dbResName="SER">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="69" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="69" dbResName="S"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="69" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="69" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="69" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="69" dbResName="SER" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="69" dbResName="S"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="69" dbResName="S" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="70" dbResName="GLY">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="70" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="70" dbResName="G"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="70" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="70" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="70" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="70" dbResName="GLY" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="70" dbResName="G"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="70" dbResName="G" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="71" dbResName="LYS">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="71" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="71" dbResName="K"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="71" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="71" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="71" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="71" dbResName="LYS" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="71" dbResName="K"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="71" dbResName="K" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="72" dbResName="GLN">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="72" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="72" dbResName="Q"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="72" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="72" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="72" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="72" dbResName="GLN" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="72" dbResName="Q"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="72" dbResName="Q" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+        <residue dbSource="PDBe" dbCoordSys="PDBe" dbResNum="73" dbResName="LEU">
+          <crossRefDb dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbResNum="73" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" dbResNum="73" dbResName="L"/>
+          <crossRefDb dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100" dbResNum="73" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343" dbResNum="73" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120" dbResNum="73" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500" dbResNum="73" dbResName="LEU" dbChainId="A"/>
+          <crossRefDb dbSource="NCBI" dbCoordSys="UniProt" dbAccessionId="4932" dbResNum="73" dbResName="L"/>
+          <crossRefDb dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbResNum="73" dbResName="L" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+          <residueDetail dbSource="PDBe" property="codeSecondaryStructure">E</residueDetail>
+          <residueDetail dbSource="PDBe" property="nameSecondaryStructure">strand</residueDetail>
+        </residue>
+      </listResidue>
+      <listMapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="PDB" dbCoordSys="PDBresnum" dbAccessionId="1cc8" dbChainId="A" start="1" end="73"/>
+        </mapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="UniProt" dbCoordSys="UniProt" dbAccessionId="P38636" start="1" end="73"/>
+          <dbDetail dbSource="UniProt" property="secondaryId">ATX1_YEAST</dbDetail>
+        </mapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="GO" dbCoordSys="UniProt" dbAccessionId="GO:0005737" dbEvidence="IEA"/>
+        </mapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="GO" dbCoordSys="UniProt" dbAccessionId="GO:0005737" dbEvidence="IEA"/>
+        </mapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="GO" dbCoordSys="UniProt" dbAccessionId="GO:0005829" dbEvidence="IDA"/>
+        </mapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="GO" dbCoordSys="UniProt" dbAccessionId="GO:0005829" dbEvidence="IBA"/>
+        </mapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="GO" dbCoordSys="UniProt" dbAccessionId="GO:0006811" dbEvidence="IEA"/>
+        </mapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="GO" dbCoordSys="UniProt" dbAccessionId="GO:0006825" dbEvidence="IBA"/>
+        </mapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="GO" dbCoordSys="UniProt" dbAccessionId="GO:0006825" dbEvidence="IEA"/>
+        </mapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="GO" dbCoordSys="UniProt" dbAccessionId="GO:0006825" dbEvidence="IMP"/>
+        </mapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="GO" dbCoordSys="UniProt" dbAccessionId="GO:0006879" dbEvidence="IMP"/>
+        </mapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="GO" dbCoordSys="UniProt" dbAccessionId="GO:0016531" dbEvidence="IBA"/>
+        </mapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="GO" dbCoordSys="UniProt" dbAccessionId="GO:0016531" dbEvidence="IDA"/>
+        </mapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="GO" dbCoordSys="UniProt" dbAccessionId="GO:0016531" dbEvidence="IDA"/>
+        </mapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="GO" dbCoordSys="UniProt" dbAccessionId="GO:0034599" dbEvidence="IMP"/>
+        </mapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="GO" dbCoordSys="UniProt" dbAccessionId="GO:0046872" dbEvidence="IEA"/>
+        </mapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="Ensembl" dbCoordSys="UniProt" dbAccessionId="YNL259C" dbTranscriptId="YNL259C_mRNA" dbTranslationId="YNL259C" dbExonId="YNL259C_mRNA-E1"/>
+        </mapRegion>
+        <mapRegion start="13" end="68">
+          <db dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121"/>
+        </mapRegion>
+        <mapRegion start="8" end="68">
+          <db dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR036163"/>
+        </mapRegion>
+        <mapRegion start="9" end="66">
+          <db dbSource="InterPro" dbCoordSys="PDBresnum" dbAccessionId="IPR006121"/>
+        </mapRegion>
+        <mapRegion start="2" end="73">
+          <db dbSource="CATH" dbCoordSys="PDBresnum" dbAccessionId="3.30.70.100"/>
+        </mapRegion>
+        <mapRegion start="1" end="73">
+          <db dbSource="SCOP" dbCoordSys="PDBresnum" dbAccessionId="39343"/>
+        </mapRegion>
+        <mapRegion start="2" end="73">
+          <db dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="FA-DOMID:8023120"/>
+        </mapRegion>
+        <mapRegion start="2" end="73">
+          <db dbSource="SCOP2" dbCoordSys="PDBresnum" dbAccessionId="SF-DOMID:8035500"/>
+        </mapRegion>
+        <mapRegion start="8" end="66">
+          <db dbSource="Pfam" dbCoordSys="UniProt" dbAccessionId="PF00403" coverage="1"/>
+        </mapRegion>
+      </listMapRegion>
+    </segment>
+  </entity>
+</entry>

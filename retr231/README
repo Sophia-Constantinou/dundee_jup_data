@@ -1,0 +1,28 @@
+training/ 
+     - directory with training set. 
+training/1,2,3,4,5,6,7
+     - directory with training sub-set (for 7 fold cross-validation).
+
+Each sequence is represented by:
+     *.fasta file - file with sequence ID and sequence itself.
+     *.profile - PSI-BLAST profile for the sequence built using UniRef90, release 2014_07, 09-Jul-2014
+     *.dssp - DSSP information (translated into 3-state)
+     *.jnet - JNet results
+
+JNet results details:
+     JNETPRED        - Final secondary structure prediction for query
+     JNETCONF        - Jnet reliability of prediction accuracy, ranges from 0 to 9, bigger is better.
+     JNETSOL25	     - Jnet prediction of burial, less than 25% solvent accesibility
+     JNETSOL5	     - Jnet prediction of burial, less than 5% exposure
+     JNETSOL0	     - Jnet prediction of burial, 0% exposure
+     JNETHMM	     - HMM-based (HMMer profile) secondary structure prediction for query
+     JNETPSSM	     - PSSM-based (PSI-BLAST profile) secondary structure prediction for query
+     JNETJURY	     - Jury details when JNETHMM and JNETPSSM differ
+
+--------------------------------------------------------------------------------------------------------------
+
+blind/
+     - directory with blind-test set. (Same file types and notations as for the training set.)
+
+
+
